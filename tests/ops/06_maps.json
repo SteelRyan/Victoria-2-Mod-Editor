@@ -1,0 +1,82 @@
+{
+ "mod": "ferrum_mare",
+ "ops": [
+  {
+   "op": "set_membership",
+   "kind": "climate",
+   "pids": [
+    26,
+    27,
+    28
+   ],
+   "name": "harsh_climate"
+  },
+  {
+   "op": "set_membership",
+   "kind": "continent",
+   "pids": [
+    29,
+    30
+   ],
+   "name": "troida"
+  },
+  {
+   "op": "set_definitions",
+   "kind": "climate",
+   "mods": {
+    "zz_test_climate": [
+     [
+      "supply_limit",
+      "2"
+     ],
+     [
+      "farm_rgo_size",
+      "-0.25"
+     ]
+    ]
+   },
+   "new_names": [
+    "zz_test_climate"
+   ]
+  },
+  {
+   "op": "set_membership",
+   "kind": "climate",
+   "pids": [
+    31,
+    32
+   ],
+   "name": "zz_test_climate"
+  },
+  {
+   "op": "adj_add",
+   "rows": [
+    [
+     26,
+     46,
+     "impassable",
+     0,
+     0,
+     ""
+    ],
+    [
+     27,
+     47,
+     "land",
+     0,
+     0,
+     "zz bridge"
+    ]
+   ]
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "redo"
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

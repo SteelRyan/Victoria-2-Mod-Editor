@@ -1,0 +1,72 @@
+{
+ "mod": "ferrum_mare",
+ "stores": [
+  "loc"
+ ],
+ "ops": [
+  {
+   "op": "loc_set",
+   "key": "PROV26",
+   "text": "Port  New   Haven;"
+  },
+  {
+   "op": "loc_set",
+   "key": "calero",
+   "text": "Calérien € «test»"
+  },
+  {
+   "op": "loc_set",
+   "key": "STA_6",
+   "text": "Sixth State"
+  },
+  {
+   "op": "loc_set",
+   "key": "ZZ_NEW_12",
+   "text": "New twelve"
+  },
+  {
+   "op": "loc_set",
+   "key": "ZZ_NEW_2",
+   "text": "New two"
+  },
+  {
+   "op": "loc_set",
+   "key": "PROV99999",
+   "text": "A new province name"
+  },
+  {
+   "op": "loc_set",
+   "key": "ZZ_SEC",
+   "text": "In the nations section",
+   "section": "country"
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "redo"
+  },
+  {
+   "op": "loc_set",
+   "key": "ZZ_NEW_2",
+   "text": "New two, changed"
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "save"
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "loc_set",
+   "key": "PROV27",
+   "text": "After apply"
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

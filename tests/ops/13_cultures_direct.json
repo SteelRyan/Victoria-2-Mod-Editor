@@ -1,0 +1,83 @@
+{
+ "mod": "ferrum_mare",
+ "ops": [
+  {
+   "op": "cultures_apply",
+   "new_groups": [
+    [
+     "zz_group",
+     "devonian"
+    ]
+   ],
+   "new_cultures": [
+    [
+     "zz_culture",
+     "devonian",
+     [
+      10,
+      20,
+      30
+     ],
+     "Zz Culture",
+     null
+    ],
+    [
+     "zz_culture2",
+     "zz_group",
+     [
+      200,
+      100,
+      50
+     ],
+     "Second Zz",
+     "doridian"
+    ]
+   ],
+   "moves": [
+    [
+     "west_devonian",
+     "doridian"
+    ]
+   ]
+  },
+  {
+   "op": "religions_apply",
+   "new_groups": [
+    [
+     "zz_faith",
+     null
+    ]
+   ],
+   "new_religions": [
+    [
+     "zz_rel",
+     "christian",
+     [
+      255,
+      128,
+      0
+     ],
+     "Zz Religion",
+     5
+    ],
+    [
+     "zz_rel2",
+     "zz_faith",
+     [
+      1,
+      2,
+      3
+     ],
+     null,
+     null
+    ]
+   ],
+   "moves": [
+    [
+     "coptic",
+     "muslim"
+    ]
+   ]
+  }
+ ]
+}

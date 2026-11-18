@@ -1,0 +1,21 @@
+{"mod": "ferrum_mare", "stores": ["nations", "oob"], "ops": [
+ {"op": "oob_edit", "tag": "AD1", "what": "add_army", "name": "Army 9", "location": 2456,
+  "regiments": [["1st Inf", "infantry", 2456], ["2nd Inf", "infantry", null], ["1st Cav", "cavalry", 2456]]},
+ {"op": "oob_edit", "tag": "AD1", "what": "set_relation", "other": "AG1", "value": "50", "level": "4"},
+ {"op": "oob_edit", "tag": "AG1", "what": "rename_army", "army": 0, "name": "Renamed Army"},
+ {"op": "undo"},
+ {"op": "oob_edit", "tag": "AG1", "what": "drop_regiment", "army": 0, "reg": 0},
+ {"op": "oob_edit", "tag": "AD1", "what": "drop_relation", "other": "ZZZ"},
+ {"op": "treaty", "a": "AD1", "b": "AG1", "kind": "alliance", "on": true},
+ {"op": "subject", "a": "VE1", "b": "ES3", "kind": ["substate", "VE1"]},
+ {"op": "undo"},
+ {"op": "redo"},
+ {"op": "save"},
+ {"op": "undo"},
+ {"op": "undo"},
+ {"op": "save"},
+ {"op": "oob_edit", "tag": "BOT", "what": "add_army", "name": "Bot Army", "location": 1,
+  "regiments": [["1st Bot", "infantry", 1]]},
+ {"op": "treaty", "a": "AD1", "b": "AG1", "kind": "alliance", "on": false},
+ {"op": "save"}
+]}

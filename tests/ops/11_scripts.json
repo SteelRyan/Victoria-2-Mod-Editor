@@ -1,0 +1,71 @@
+{
+ "mod": "ferrum_mare",
+ "stores": [
+  "scripts"
+ ],
+ "ops": [
+  {
+   "op": "script_replace",
+   "rel": "events/003_world_bank_control.txt",
+   "old": "value = -400",
+   "new": "value = -500"
+  },
+  {
+   "op": "script_type",
+   "rel": "events/003_world_bank_control.txt",
+   "old": "Don't Sphere BOT",
+   "new": "Don't Sphere BOT!"
+  },
+  {
+   "op": "script_type",
+   "rel": "events/003_world_bank_control.txt",
+   "old": "BOT!",
+   "new": "BOT!!"
+  },
+  {
+   "op": "script_replace",
+   "rel": "events/003_world_bank_control.txt",
+   "old": "factor = 1.0\n",
+   "new": "factor = 1.00\n"
+  },
+  {
+   "op": "script_remove",
+   "rel": "decisions/000_day_1.txt"
+  },
+  {
+   "op": "script_set",
+   "rel": "events/zz_new_events.txt",
+   "text": "country_event = {\n\tid = 99999001\n\ttitle = \"New\"\n\toption = { name = \"Fine\" }\n}\n"
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "redo"
+  },
+  {
+   "op": "script_replace",
+   "rel": "decisions/000_day_1.txt",
+   "old": "factor = 100",
+   "new": "factor = 50"
+  },
+  {
+   "op": "save"
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "script_type",
+   "rel": "events/003_world_bank_control.txt",
+   "old": "Alright, sounds good.",
+   "new": "Alright."
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

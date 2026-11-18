@@ -1,0 +1,21 @@
+{"mod": "ferrum_mare", "stores": ["scripts", "events"], "ops": [
+ {"op": "event_db"},
+ {"op": "event_cats", "rel": "events/001_BOT_1836_starting_event.txt", "uid": "country_event:4760060#1",
+  "names": ["Alpha", "Beta", "Alpha", ""]},
+ {"op": "event_cats", "rel": "events/001_BOT_1836_starting_event.txt", "uid": null, "names": ["File cat"]},
+ {"op": "event_cats", "rel": "decisions/000_day_1.txt", "uid": "decision:day_1_event#1", "names": ["Day one"]},
+ {"op": "event_db"},
+ {"op": "lit_line", "rel": "decisions/000_day_1.txt", "uid": "decision:day_1_event#1", "on": true},
+ {"op": "lit_line", "rel": "decisions/000_day_1.txt", "uid": "decision:day_1_event#1", "on": true},
+ {"op": "event_db"},
+ {"op": "undo"},
+ {"op": "event_db"},
+ {"op": "event_cats", "rel": "events/001_BOT_1836_starting_event.txt", "uid": "country_event:4760060#1", "names": []},
+ {"op": "script_set", "rel": "events/zz_new.txt", "text": "#file category: Made here\ncountry_event = {\n\tid = 990001\n\ttitle = zz_t\n\tdesc = zz_d\n\ttrigger = { tag = AB1 year = 1840 }\n\tmean_time_to_happen = { months = 6 }\n\toption = { name = zz_o prestige = 1 }\n}\n"},
+ {"op": "script_remove", "rel": "events/002_BOT_Ghost_nation_removal.txt"},
+ {"op": "event_db"},
+ {"op": "save"},
+ {"op": "event_db"},
+ {"op": "undo"},
+ {"op": "event_db"}
+]}

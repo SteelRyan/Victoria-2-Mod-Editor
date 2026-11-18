@@ -1,0 +1,109 @@
+{
+ "mod": "ferrum_mare",
+ "ops": [
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": 1
+  },
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": -1
+  },
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": 5
+  },
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": -5
+  },
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": 10
+  },
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": -10
+  },
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": 50
+  },
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": -50
+  },
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": 25
+  },
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": -25
+  },
+  {
+   "op": "scale",
+   "pids": [
+    27,
+    28
+   ],
+   "new_total": 20000
+  },
+  {
+   "op": "scale",
+   "pids": [
+    980
+   ],
+   "percent": 1
+  },
+  {
+   "op": "scale",
+   "pids": [
+    980
+   ],
+   "percent": -50
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "redo"
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

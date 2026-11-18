@@ -1,0 +1,14 @@
+{"mod": "ferrum_mare", "stores": ["techprod"], "ops": [
+ {"op": "tech_set", "index": 0, "path": [1], "value": "1777"},
+ {"op": "tech_set", "index": 4, "path": [0], "value": "zz_area"},
+ {"op": "undo"},
+ {"op": "tech_move", "index": 2, "step": 1},
+ {"op": "prod_other", "what": "cost", "index": 0, "value": "12.5"},
+ {"op": "prod_other", "what": "cost", "index": 1, "value": "abc"},
+ {"op": "undo"},
+ {"op": "redo"},
+ {"op": "save"},
+ {"op": "undo"},
+ {"op": "tech_set", "index": 1, "path": [1], "value": "1801"},
+ {"op": "save"}
+]}

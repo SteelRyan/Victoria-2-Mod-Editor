@@ -1,0 +1,67 @@
+{
+ "mod": "ferrum_mare",
+ "ops": [
+  {
+   "op": "scale",
+   "pids": [
+    980,
+    981
+   ],
+   "new_total": 3
+  },
+  {
+   "op": "scale",
+   "pids": [
+    980
+   ],
+   "percent": 50
+  },
+  {
+   "op": "scale",
+   "pids": [
+    981
+   ],
+   "percent": 25
+  },
+  {
+   "op": "scale",
+   "pids": [
+    34
+   ],
+   "new_total": 7
+  },
+  {
+   "op": "scale",
+   "pids": [
+    35
+   ],
+   "filter": {
+    "types": [
+     "farmers"
+    ]
+   },
+   "percent": 12.5
+  },
+  {
+   "op": "split",
+   "source": 34,
+   "targets": [
+    [
+     35,
+     1.0
+    ],
+    [
+     26,
+     1.0
+    ],
+    [
+     27,
+     1.0
+    ]
+   ]
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

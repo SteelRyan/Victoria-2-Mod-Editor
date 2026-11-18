@@ -1,0 +1,115 @@
+{
+ "mod": "ferrum_mare",
+ "ops": [
+  {
+   "op": "scale",
+   "pids": [
+    1101,
+    1442
+   ],
+   "filter": {
+    "types": [
+     "farmers"
+    ]
+   },
+   "percent": 10
+  },
+  {
+   "op": "scale",
+   "pids": [
+    1101
+   ],
+   "filter": {
+    "cultures": [
+     "calero"
+    ]
+   },
+   "percent": -20
+  },
+  {
+   "op": "scale",
+   "pids": [
+    1101,
+    1442,
+    1445
+   ],
+   "filter": {
+    "no_types": [
+     "slaves",
+     "soldiers"
+    ],
+    "no_cultures": [
+     "spherso"
+    ]
+   },
+   "percent": 7
+  },
+  {
+   "op": "add_pop",
+   "pids": [
+    29,
+    30
+   ],
+   "type": "clerks",
+   "culture": "calero",
+   "religion": "catholic",
+   "size": 1234
+  },
+  {
+   "op": "add_pop",
+   "pids": [
+    29
+   ],
+   "type": "clerks",
+   "culture": "calero",
+   "religion": "catholic",
+   "size": 6
+  },
+  {
+   "op": "paste",
+   "pids": [
+    31
+   ],
+   "template": [
+    {
+     "type": "farmers",
+     "culture": "calero",
+     "religion": "catholic",
+     "size": 500
+    },
+    {
+     "type": "artisans",
+     "culture": "pinaro",
+     "religion": "catholic",
+     "size": 333
+    }
+   ],
+   "factor": 1.5
+  },
+  {
+   "op": "paste",
+   "pids": [
+    32
+   ],
+   "template": [
+    {
+     "type": "farmers",
+     "culture": "calero",
+     "religion": "catholic",
+     "size": 1
+    },
+    {
+     "type": "labourers",
+     "culture": "calero",
+     "religion": "catholic",
+     "size": 1
+    }
+   ],
+   "replace": true,
+   "total": 1001
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

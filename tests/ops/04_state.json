@@ -1,0 +1,52 @@
+{
+ "mod": "ferrum_mare",
+ "ops": [
+  {
+   "op": "consolidate",
+   "rid": "STA_6",
+   "types": [
+    "aristocrats",
+    "officers",
+    "bureaucrats",
+    "clergymen"
+   ]
+  },
+  {
+   "op": "set_capital",
+   "rid": "STA_6",
+   "pid": 30
+  },
+  {
+   "op": "consolidate",
+   "rid": "STA_6",
+   "types": [
+    "capitalists",
+    "clerks"
+   ],
+   "same_owner": true
+  },
+  {
+   "op": "move_to_state",
+   "pids": [
+    46
+   ],
+   "target": "STA_6"
+  },
+  {
+   "op": "move_to_state",
+   "pids": [
+    47
+   ],
+   "target": "STA_ZZ1",
+   "create": true
+  },
+  {
+   "op": "delete_state",
+   "rid": "STA_8",
+   "target": "STA_6"
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

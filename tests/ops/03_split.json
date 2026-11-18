@@ -1,0 +1,53 @@
+{
+ "mod": "ferrum_mare",
+ "ops": [
+  {
+   "op": "split",
+   "source": 1101,
+   "targets": [
+    [
+     1101,
+     1.0
+    ],
+    [
+     1442,
+     2.0
+    ],
+    [
+     1445,
+     0.5
+    ]
+   ]
+  },
+  {
+   "op": "split",
+   "source": 33,
+   "targets": [
+    [
+     34,
+     1.0
+    ],
+    [
+     35,
+     1.0
+    ]
+   ],
+   "filter": {
+    "types": [
+     "farmers",
+     "labourers"
+    ]
+   },
+   "keep": 100
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "redo"
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

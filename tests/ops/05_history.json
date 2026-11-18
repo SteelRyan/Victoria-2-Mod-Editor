@@ -1,0 +1,49 @@
+{
+ "mod": "ferrum_mare",
+ "ops": [
+  {
+   "op": "history",
+   "pids": [
+    26,
+    27
+   ],
+   "owner": "AD1",
+   "controller": "AD1",
+   "add_cores": [
+    "AD1"
+   ]
+  },
+  {
+   "op": "history",
+   "pids": [
+    28
+   ],
+   "life_rating": 42,
+   "fort": 2,
+   "remove_cores": [
+    "FO1"
+   ]
+  },
+  {
+   "op": "remove_first_factory",
+   "pid": 39
+  },
+  {
+   "op": "history",
+   "pids": [
+    41
+   ],
+   "railroad": 3,
+   "trade_goods": "coal"
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "redo"
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

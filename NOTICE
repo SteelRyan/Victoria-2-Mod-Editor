@@ -1,0 +1,14 @@
+ModEditor
+Copyright 2026 SteelRyan
+
+ModEditor, a mod editor for Victoria II: Heart of Darkness, was originally made by
+SteelRyan (https://github.com/SteelRyan/Victoria-2-Mod-Editor).
+
+Licensed under the Apache License, Version 2.0 (see LICENSE). Anyone who shares this
+program or a changed version of it must keep this notice.
+
+ModEditor uses Qt (https://www.qt.io), which is licensed separately under the
+GNU Lesser General Public License v3; see the licenses folder.
+
+Victoria II is a trademark of Paradox Interactive AB. ModEditor is not made or
+endorsed by Paradox Interactive.

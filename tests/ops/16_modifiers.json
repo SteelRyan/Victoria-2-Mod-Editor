@@ -1,0 +1,16 @@
+{"mod": "ferrum_mare", "stores": ["scripts", "events"], "ops": [
+ {"op": "mod_edit", "what": "set_attr", "name": "WB_no_bankruns_please", "key": "min_tax", "value": "0.5"},
+ {"op": "mod_edit", "what": "set_attr", "name": "WB_no_bankruns_please", "key": "max_tax", "value": "0.75"},
+ {"op": "mod_edit", "what": "del_attr", "name": "WB_no_bankruns_please", "key": "icon"},
+ {"op": "mod_edit", "what": "add", "name": "zz_new_modifier"},
+ {"op": "mod_edit", "what": "set_attr", "name": "zz_new_modifier", "key": "prestige", "value": "0.1"},
+ {"op": "mod_edit", "what": "remove", "name": "youre_kicked_mate"},
+ {"op": "undo"},
+ {"op": "undo"},
+ {"op": "redo"},
+ {"op": "save"},
+ {"op": "mod_edit", "what": "remove", "name": "PULL_pop_base"},
+ {"op": "undo"},
+ {"op": "undo"},
+ {"op": "save"}
+]}

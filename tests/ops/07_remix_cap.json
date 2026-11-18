@@ -1,0 +1,54 @@
+{
+ "mod": "ferrum_mare",
+ "ops": [
+  {
+   "op": "remix_shift",
+   "pids": [
+    1101
+   ],
+   "field": "culture",
+   "from": "calero",
+   "to": "pinaro",
+   "people": 3001
+  },
+  {
+   "op": "remix_shift",
+   "pids": [
+    1101,
+    1442
+   ],
+   "filter": {
+    "types": [
+     "farmers"
+    ]
+   },
+   "field": "religion",
+   "from": "catholic",
+   "to": "protestant",
+   "people": 777
+  },
+  {
+   "op": "lower_to_cap",
+   "todo": [
+    [
+     "slaves",
+     [
+      1101
+     ],
+     0.05
+    ],
+    [
+     "artisans",
+     [
+      1442,
+      1445
+     ],
+     0.02
+    ]
+   ]
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

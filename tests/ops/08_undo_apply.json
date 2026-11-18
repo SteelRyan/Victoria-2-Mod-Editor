@@ -1,0 +1,52 @@
+{
+ "mod": "ferrum_mare",
+ "ops": [
+  {
+   "op": "scale",
+   "pids": [
+    26
+   ],
+   "percent": 30
+  },
+  {
+   "op": "history",
+   "pids": [
+    27
+   ],
+   "life_rating": 20
+  },
+  {
+   "op": "set_membership",
+   "kind": "climate",
+   "pids": [
+    33
+   ],
+   "name": "mild_climate"
+  },
+  {
+   "op": "save"
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "undo"
+  },
+  {
+   "op": "save"
+  },
+  {
+   "op": "redo"
+  },
+  {
+   "op": "scale",
+   "pids": [
+    28
+   ],
+   "new_total": 5
+  },
+  {
+   "op": "save"
+  }
+ ]
+}

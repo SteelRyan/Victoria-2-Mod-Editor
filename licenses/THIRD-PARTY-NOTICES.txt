@@ -1,0 +1,22 @@
+ModEditor - third-party software it ships with
+=============================================
+
+Qt 6.11.2 (Qt Core, Qt Gui, Qt Widgets and the platform, style and image-format
+plug-ins in this folder)
+    Copyright (C) The Qt Company Ltd. and other contributors.
+    Used under the GNU Lesser General Public License, version 3 (LGPL-3.0):
+    see LGPL-3.0.txt and GPL-3.0.txt in this folder.
+    ModEditor links Qt dynamically: the Qt*.dll files and the plug-in folders
+    are Qt's own, unmodified. You may replace them with another build of
+    Qt 6.11 (for example one you built yourself) and ModEditor will use it.
+    Qt's source code: https://download.qt.io/archive/qt/6.11/ (or
+    https://code.qt.io/cgit/qt/qt5.git), the 6.11.2 tag.
+
+Microsoft Visual C++ runtime (msvcp140.dll, msvcp140_1.dll, vcruntime140.dll,
+vcruntime140_1.dll)
+    Copyright (C) Microsoft Corporation. Redistributed as permitted by the
+    Visual Studio redistributable terms.
+
+Victoria II is a game by Paradox Interactive. ModEditor is not made or endorsed
+by Paradox Interactive and contains none of the game's files: it reads the
+game and the mods installed on your own computer.
